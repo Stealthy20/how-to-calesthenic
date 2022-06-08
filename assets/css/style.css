@@ -12,6 +12,49 @@ body {
     color: #3a3a3a;
 }
 
+/* headings and logo */
+
 h1, h2 {
     font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #fed444;
+    overflow: auto;
+}
+
+#main-header {
+    margin-left: 30px;
+    float: left;
+}
+
+#header-img {
+    clear: both;
+}
+
+
+/* navigation links */
+
+
+#nav-bar {
+    font-size: 110%;
+    float: right;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+#nav-bar, #main-header {
+    line-height: 75px;
+}
+
+header a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
