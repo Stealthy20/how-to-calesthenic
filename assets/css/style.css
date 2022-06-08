@@ -20,6 +20,10 @@ h1, h2 {
     letter-spacing: 1px;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 header {
     background-color: #fed444;
     overflow: auto;
@@ -32,6 +36,10 @@ header {
 
 #header-img {
     clear: both;
+}
+
+.active {
+    font-weight: 900;
 }
 
 /* navigation links */
@@ -97,7 +105,10 @@ footer {
 /* content index-html */
 
 #welcome {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    text-align: center;
+}
+
+#welcome h2 {
+    padding: 15px 0;
+    font-size: 200%;
 }
