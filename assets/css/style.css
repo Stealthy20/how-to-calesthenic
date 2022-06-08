@@ -102,9 +102,9 @@ footer {
     margin-right: 50px;
 }
 
-/* content index-html */
+/* index.html content */
 
-#welcome {
+.welcome {
     text-align: center;
 }
 
@@ -112,3 +112,18 @@ footer {
     padding: 15px 0;
     font-size: 200%;
 }
+
+/* get started.html content */
+
+.get-started {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+ }
+
+.get-started-img {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
