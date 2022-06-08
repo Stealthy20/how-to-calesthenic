@@ -72,6 +72,28 @@ header a {
     background: url('../images/header-img.jpg') no-repeat center center;
 }
 
+/* footer */
+
+footer {
+    background-color: #fed444;
+    height: 75px;
+}
+
+#social-media {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    font-size: 250%;
+    color: #3a3a3a;
+    margin-right: 50px;
+}
+
 /* content index-html */
 
 #welcome {
