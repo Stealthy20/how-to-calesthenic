@@ -85,6 +85,7 @@ header a {
 footer {
     background-color: #fed444;
     height: 75px;
+    clear: both;
 }
 
 #social-media {
@@ -113,17 +114,19 @@ footer {
     font-size: 200%;
 }
 
-/* get started.html content */
+/* get-started.html content */
 
 .get-started {
     padding-top: 30px;
     width: 50%;
     float: left;
+    background-color: blue;
  }
 
 .get-started-img {
     padding-top: 30px;
     width: 50%;
     float: right;
+    background-color: red;
 }
 
