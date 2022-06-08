@@ -119,6 +119,7 @@ footer {
 .get-started {
     padding-top: 30px;
     width: 50%;
+    height: 100px;
     float: left;
     background-color: blue;
  }
@@ -126,6 +127,7 @@ footer {
 .get-started-img {
     padding-top: 30px;
     width: 50%;
+    height: 100px;
     float: right;
     background-color: red;
 }
