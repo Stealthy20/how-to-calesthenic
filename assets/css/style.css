@@ -25,13 +25,14 @@ h2 {
 }
 
 header {
-    background-color: #fed444;
+    background-color: #3a3a3a;
     overflow: auto;
 }
 
 #main-header {
     margin-left: 30px;
     float: left;
+    color: white;
 }
 
 #header-img {
@@ -47,6 +48,7 @@ header {
 #nav-bar {
     font-size: 110%;
     float: right;
+    color: white;
 }
 
 #nav-bar li {
@@ -54,6 +56,7 @@ header {
     float: left;
     margin-right: 30px;
     text-align: center;
+    color: white;
 }
 
 #nav-bar, #main-header {
@@ -62,7 +65,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: white;
 }
 
 /* header image */
@@ -83,7 +86,7 @@ header a {
 /* footer */
 
 footer {
-    background-color: #fed444;
+    background-color: #3a3a3a;
     height: 75px;
     clear: both;
 }
@@ -99,7 +102,7 @@ footer {
 
 #social-media i {
     font-size: 250%;
-    color: #3a3a3a;
+    color: white;
     margin-right: 50px;
 }
 
@@ -116,9 +119,16 @@ footer {
 
 /* get-started.html content */
 
+.get-started-pros {
+    width: 33%;
+    height: 150px;
+    margin: 0 auto;
+    background-color: green;
+}
+
 .get-started {
     padding-top: 30px;
-    width: 50%;
+    width: 33%;
     height: 100px;
     float: left;
     background-color: blue;
@@ -126,7 +136,7 @@ footer {
 
 .get-started-img {
     padding-top: 30px;
-    width: 50%;
+    width: 33%;
     height: 100px;
     float: right;
     background-color: red;
