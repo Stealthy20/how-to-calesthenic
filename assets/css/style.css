@@ -116,25 +116,47 @@ footer {
     text-align: center;
 }
 
-#welcome h2 {
+.welcome h2 {
     padding: 15px 0;
     font-size: 200%;
 }
 
-#welcome-left {
+.welcome-left {
     float: left;
     width: 33%;
 }
 
-#welcome-right {
+.welcome-right {
     float: right;
     width: 33%;
 }
 
-#welcome-center{
+.welcome-center{
     width: 33%;
     margin: 0 auto;
 }
+
+.welcome-left h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.welcome-right h2 {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.welcome-right p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.welcome-left p {
+    text-align: center;
+    padding-top: 15px;
+}
+
 /* get-started.html content */
 
 .welcome {
