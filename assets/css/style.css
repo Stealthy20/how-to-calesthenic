@@ -39,16 +39,16 @@ header {
     clear: both;
 }
 
-.active {
-    font-weight: 900;
-}
-
 /* navigation links */
 
 #nav-bar {
     font-size: 110%;
     float: right;
     color: white;
+}
+
+.active {
+    font-weight: 900;
 }
 
 #nav-bar li {
@@ -66,6 +66,10 @@ header {
 header a {
     text-decoration: none;
     color: white;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid white;
 }
 
 /* header image */
