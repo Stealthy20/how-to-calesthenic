@@ -124,16 +124,23 @@ footer {
 .welcome-left {
     float: left;
     width: 33%;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .welcome-right {
     float: right;
     width: 33%;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: left;
 }
 
 .welcome-center{
     width: 33%;
     margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .welcome-left h2 {
