@@ -160,7 +160,6 @@ footer {
 .welcome-right h2 {
     text-align: center;
     padding-top: 25px;
-
 }
 
 .welcome-right p {
@@ -235,8 +234,10 @@ footer {
 
 .get-started-img img {
     border-radius: 75%;
-}
+   }
 
 hr {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* inspiration.html content */
