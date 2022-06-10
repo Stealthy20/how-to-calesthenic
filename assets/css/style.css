@@ -219,11 +219,6 @@ footer {
     height: 100%;
 }
 
-.get-started-pros {
-    width: 25%;
-    
- }
-
 .get-started {
     width:37%;
  }
@@ -241,3 +236,32 @@ hr {
 }
 
 /* inspiration.html content */
+
+.inspiration-person, .inspiration-img, .inspiration-social {
+    width: 100%;
+    height: 100%;
+}
+
+.inspiration-person {
+    width: 33%;
+}
+
+.inspiration-img {
+    width: 33%
+}
+
+.inspiration-img img {
+    width: 250px;
+    height: auto;
+    border-radius: 75%;
+}
+
+.inspiration-socials li {
+    font-size: 500%;
+    color:red;
+    list-style: none;
+}
+
+.inspiration-socials i {
+    color: #3a3a3a;
+}
