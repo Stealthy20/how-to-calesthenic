@@ -221,15 +221,22 @@ footer {
 }
 
 .get-started-pros {
-    width:33%;
+    width: 25%;
     
  }
 
 .get-started {
-    width:33%;
+    width:37%;
  }
 
 .get-started-img {
-    width:33%;
+    width: 37%;
 }
 
+.get-started-img img {
+    border-radius: 75%;
+}
+
+hr {
+    border-bottom: 1px solid #3a3a3a;
+}
