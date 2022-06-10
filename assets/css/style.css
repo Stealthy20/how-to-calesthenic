@@ -118,8 +118,13 @@ footer {
 }
 
 .welcome h2 {
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
     font-size: 200%;
+}
+
+.welcome p {
+    margin-top: -10px;
 }
 
 .welcome-heading {
