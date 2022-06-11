@@ -42,7 +42,7 @@ header {
 /* navigation links */
 
 #nav-bar {
-    font-size: 110%;
+    font-size: 120%;
     float: right;
     color: white;
 }
@@ -56,7 +56,6 @@ header {
     float: left;
     margin-right: 30px;
     text-align: center;
-    color: white;
 }
 
 #nav-bar, #main-header {
@@ -93,11 +92,11 @@ footer {
     background-color: #3a3a3a;
     height: 75px;
     clear: both;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 #social-media {
-    text-align: center;
+    text-align: end;
     padding-top: 20px;
 }
 
@@ -115,16 +114,18 @@ footer {
 
 .welcome {
     text-align: center;
+    margin:auto;
+    width: 50%;
 }
 
 .welcome h2 {
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 50px;
+    
     font-size: 200%;
 }
 
 .welcome p {
-    margin-top: -10px;
+   padding:15px 0 30px;
 }
 
 .welcome-heading {
@@ -154,22 +155,20 @@ footer {
 
 .welcome-left h2 {
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0 15px;
 }
 
 .welcome-right h2 {
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0 15px;
 }
 
 .welcome-right p {
     text-align: center;
-    padding-top: 15px;
 }
 
 .welcome-left p {
-    text-align: center;
-    padding-top: 15px;
+    text-align: center; 
 }
 
 .welcome-center img {
@@ -178,61 +177,48 @@ footer {
 
 /* get-started.html content */
 
-.welcome {
-    margin:auto;
-    width: 33%;
-}
-
-.welcome h2 {
-    padding-top: 50px;
-}
-
-.welcome p {
-    padding-top: 25px;
-    padding-bottom: 30px;
-}
-
-.get-started-heading {
-    padding-bottom: 15px;
-}
-
-.get-started-pros h2 {
-    margin-left: 15px;
-}
-
-.get-started-pros li {
-    padding-bottom: 15px;
-    margin-left: 15px;
-    list-style-position: inside;
-    list-style-type: circle;
-}
-
 .container {
     display: flex;
-    align-items: flex-start;
     justify-content: space-evenly;
     padding: 10px;
 }
 
-.get-started-pros, .get-started, .get-started-img {
+.get-started, .get-started-pros, .get-started-img {
     width: 100%;
     height: 100%;
 }
 
 .get-started {
-    width:37%;
+    width:33%;
+    margin-left: 50px;
  }
 
 .get-started-img {
-    width: 37%;
+    width: 33%;
+    margin-left: 15px;
 }
 
 .get-started-img img {
     border-radius: 75%;
-   }
+    width: 350px;
+    height: auto;
+    margin-top: 40px;
 
-hr {
-    border-bottom: 1px solid #3a3a3a;
+}
+
+.get-started-pros {
+    width: 33%;
+}
+
+.get-started-heading {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.get-started-pros li {
+    padding-bottom: 15px;
+    list-style-position: inside;
+    list-style-type: circle;
 }
 
 /* inspiration.html content */
@@ -250,6 +236,10 @@ hr {
     width: 33%
 }
 
+.inspiration-heading {
+    padding-bottom: 15px;
+}
+
 .inspiration-img img {
     width: 250px;
     height: auto;
@@ -258,10 +248,10 @@ hr {
 
 .inspiration-socials li {
     font-size: 500%;
-    color:red;
-    list-style: none;
+    list-style-type: none;
 }
 
 .inspiration-socials i {
     color: #3a3a3a;
 }
+
