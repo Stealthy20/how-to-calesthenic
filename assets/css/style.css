@@ -221,13 +221,13 @@ footer {
 
 /* inspiration.html content */
 
-.inspiration-person, .inspiration-img, .inspiration-social {
+.inspiration-person, .inspiration-img {
     width: 100%;
     height: 100%;
 }
 
 .inspiration-person {
-    width: 33%;
+    width: 50%;
 }
 
 .inspiration-img {
@@ -283,7 +283,15 @@ footer {
         margin-left: 15px;
     }
     
-   
+    .inspiration-person {
+        width: 100%;
+    }
+    
+    .inspiration-img {
+        width: 50%
+    }
+
+    
  }
 
  /* For screens up to 850px wide and down*/
@@ -330,7 +338,8 @@ footer {
 
     .container {
         flex-direction: column;
-      }
+        justify-content: center;
+    }
       
     .get-started {
         margin-left: 15px;     
@@ -339,9 +348,18 @@ footer {
     .get-started p {
         margin-right: 15px;
     }
-}
 
- /* For screens up to 425px wide and down*/
+    .inspiration-img {
+        padding-top: 50px;
+        margin-left: 30%;
+    }
+
+    .inspiration-socials{
+        padding-top: 50px;
+        margin-left: 40%;
+    }
+
+    /* For screens up to 425px wide and down*/
 
  @media screen and (max-width: 425px) {
     #main-header {
