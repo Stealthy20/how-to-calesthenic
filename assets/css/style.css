@@ -288,7 +288,7 @@ footer {
 
  /* For screens up to 850px wide and down*/
 
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 850px) {
     .nav-bar {
         float: left;
         margin-left: 15px;
@@ -305,7 +305,7 @@ footer {
     }
 
     .welcome {
-        width: 100%;
+        width: 90%;
     }
 
     .welcome-center{
@@ -326,6 +326,18 @@ footer {
         text-align: center;
         margin:auto;
         width: 85%;
+    }
+
+    .container {
+        flex-direction: column;
+      }
+      
+    .get-started {
+        margin-left: 15px;     
+    }
+
+    .get-started p {
+        margin-right: 15px;
     }
 }
 
