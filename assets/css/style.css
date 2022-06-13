@@ -114,7 +114,7 @@ footer {
 .welcome {
     text-align: center;
     margin:auto;
-    width: 50%;
+    width: 85%;
 }
 
 .welcome h2 {
@@ -196,16 +196,16 @@ footer {
     margin-left: 15px;
 }
 
+.get-started-pros {
+    width: 33%;
+}
+
 .get-started-img img {
     border-radius: 75%;
     width: 350px;
     height: auto;
     margin-top: 40px;
 
-}
-
-.get-started-pros {
-    width: 33%;
 }
 
 .get-started-heading {
@@ -270,6 +270,20 @@ footer {
         width: 45%;
     }
 
+    .get-started {
+        width:100%;
+    }
+    
+    .get-started-img {
+        width: 50%;
+    }
+    
+    .get-started-pros {
+        width: 50%;
+        margin-left: 15px;
+    }
+    
+   
  }
 
  /* For screens up to 850px wide and down*/
