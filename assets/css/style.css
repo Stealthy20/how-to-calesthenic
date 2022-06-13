@@ -111,6 +111,10 @@ footer {
     margin-right: 50px;
 }
 
+#social-media a:hover {
+    font-size: 120%;
+}
+
 .form-footer {
     float: left;
     line-height: 75px;
