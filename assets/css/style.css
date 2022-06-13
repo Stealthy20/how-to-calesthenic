@@ -91,7 +91,7 @@ footer {
     background-color: #3a3a3a;
     height: 75px;
     clear: both;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #social-media {
@@ -379,5 +379,15 @@ footer {
     .welcome-center img {
         width: 85%;
         height: auto;
+    }
+
+    .inspiration-img {
+        padding-top: 50px;
+        margin-left: 15px;
+    }
+
+    .inspiration-socials{
+        padding-top: 50px;
+        margin-left: 75px;
     }
  }
