@@ -284,6 +284,12 @@ footer {
         margin-left: 15px;
     }
 
+    #social-media i {
+        font-size: 250%;
+        color: white;
+        margin-right: 15px;
+    }
+
     .welcome {
         width: 100%;
     }
@@ -317,5 +323,17 @@ footer {
     }
     .nav-bar li {
         font-size: .8em;
+    }
+
+    .welcome h2 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+    .welcome-center img {
+        width: 85%;
+        height: auto;
     }
  }
