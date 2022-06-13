@@ -261,6 +261,14 @@ footer {
     .welcome {
         width: 85%;
     }
+    .welcome-left {
+        width: 45%;
+    }
+
+    .welcome-right {
+        width: 45%;
+    }
+
  }
 
  /* For screens up to 850px wide and down*/
