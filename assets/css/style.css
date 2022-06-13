@@ -140,7 +140,7 @@ footer {
     border-bottom: 1px solid white;
 }
 
-/* index.html content */
+/* index.html style */
 
 .welcome {
     text-align: center;
@@ -205,7 +205,7 @@ footer {
     margin-bottom: 50px;
 }
 
-/* get-started.html content */
+/* get-started.html style */
 
 .container {
     display: flex;
@@ -253,7 +253,7 @@ footer {
     text-align: left;
 }
 
-/* inspiration.html content */
+/* inspiration.html style */
 
 .inspiration-person, .inspiration-img {
     width: 100%;
@@ -287,7 +287,7 @@ footer {
     color: #3a3a3a;
 }
 
-/* newsletter.html content inspired alot from love running challenge */
+/* newsletter.html style inspired alot from love running challenge */
 
 .form-section {
     background: url('../images/form-background.jpg');
@@ -321,7 +321,7 @@ footer {
  }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    font-size: .9em;
 }
 
 .button {
@@ -350,6 +350,20 @@ footer {
 
     .button-reset:hover {
         background-color: red;
+    }
+
+    /* signed up style */
+
+    .signed-up {
+        padding-top: 150px;
+        text-decoration: none;
+    }
+
+    .signed-up-img img {
+        width: 50%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
  /* Media queries */
@@ -454,6 +468,19 @@ footer {
     .inspiration-socials{
         padding-top: 50px;
        
+    }
+
+    .signed-up {
+        padding-top: 150px;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    .signed-up-img img {
+        width: 75%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }  
 
