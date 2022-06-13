@@ -119,7 +119,6 @@ footer {
 
 .welcome h2 {
     padding-top: 50px;
-    
     font-size: 200%;
 }
 
@@ -261,5 +260,28 @@ footer {
  @media screen and (max-width: 1300px) {
     .welcome {
         width: 85%;
+    }
+ }
+
+ /* For screens up to 850px wide and down*/
+
+ @media screen and (max-width: 800px) {
+    .nav-bar {
+        float: left;
+        margin-left: 15px;
+    }
+    #main-header {
+        margin-left: 15px;
+    }
+}
+
+ /* For screens up to 425px wide and down*/
+
+ @media screen and (max-width: 425px) {
+    #main-header {
+        font-size: 1.2em;
+    }
+    .nav-bar li {
+        font-size: .8em;
     }
  }
