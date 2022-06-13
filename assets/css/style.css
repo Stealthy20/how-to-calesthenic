@@ -261,6 +261,7 @@ footer {
     .welcome {
         width: 85%;
     }
+
     .welcome-left {
         width: 45%;
     }
@@ -278,8 +279,33 @@ footer {
         float: left;
         margin-left: 15px;
     }
+
     #main-header {
         margin-left: 15px;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .welcome-center{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .welcome-left {
+        float: none;
+        text-align: center;
+        margin:auto;
+        width: 85%;
+    }
+
+    .welcome-right {
+        float: none;
+        text-align: center;
+        margin:auto;
+        width: 85%;
     }
 }
 
