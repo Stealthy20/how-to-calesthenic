@@ -41,7 +41,7 @@ header {
 
 /* navigation links */
 
-#nav-bar {
+.nav-bar {
     font-size: 120%;
     float: right;
     color: white;
@@ -51,14 +51,14 @@ header {
     font-weight: 900;
 }
 
-#nav-bar li {
+.nav-bar li {
     list-style-type: none;
     float: left;
     margin-right: 30px;
     text-align: center;
 }
 
-#nav-bar, #main-header {
+.nav-bar, #main-header {
     line-height: 75px;
 }
 
