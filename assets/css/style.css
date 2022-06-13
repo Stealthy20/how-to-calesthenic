@@ -12,6 +12,18 @@ body {
     font-size: 1.2em;
 }
 
+
+/* code from kirianworkspace.com */
+body{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+   .wrapper{
+    flex:1;
+   }
+
 /* headings and logo */
 
 h1, h2 {
@@ -239,6 +251,7 @@ footer {
     padding-bottom: 15px;
     list-style-position: inside;
     list-style-type: circle;
+    text-align: left;
 }
 
 /* inspiration.html content */
@@ -430,7 +443,7 @@ footer {
 
     .inspiration-socials{
         padding-top: 50px;
-        margin-left: 40%;
+       
     }
 }  
 
