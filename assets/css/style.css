@@ -48,6 +48,7 @@ header {
 
 .active {
     font-weight: 900;
+    font-size: 120%;
 }
 
 .nav-bar li {
@@ -66,7 +67,7 @@ header a {
     color: white;
 }
 
-#nav-bar a:hover {
+.nav-bar a:hover {
     border-bottom: 1px solid white;
 }
 
@@ -105,6 +106,7 @@ footer {
 
 #social-media i {
     font-size: 250%;
+    line-height: 37px;
     color: white;
     margin-right: 50px;
 }
@@ -202,7 +204,7 @@ footer {
 }
 
 .get-started {
-    width: 80%;
+    width: 100%;
     margin-left: 50px;
  }
 
@@ -243,7 +245,7 @@ footer {
 }
 
 .inspiration-person {
-    width: 50%;
+    width: 100%;
 }
 
 .inspiration-img {
@@ -437,6 +439,7 @@ footer {
 
     .form-footer {
     float: right;
+    margin-right: 15px;
     }
 
     #social-media {
@@ -464,6 +467,11 @@ footer {
     }
     .welcome-center img {
         width: 85%;
+        height: auto;
+    }
+
+    .get-started-img img {
+        width: 250px;
         height: auto;
     }
 
