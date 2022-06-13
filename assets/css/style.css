@@ -109,6 +109,21 @@ footer {
     margin-right: 50px;
 }
 
+.form-footer {
+    float: left;
+    line-height: 75px;
+}
+
+.form-footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.form-footer a:hover {
+    border-bottom: 1px solid white;
+}
+
 /* index.html content */
 
 .welcome {
@@ -291,9 +306,7 @@ footer {
     .inspiration-img {
         width: 50%
     }
-
-    
- }
+}
 
  /* For screens up to 850px wide and down*/
 
@@ -361,12 +374,29 @@ footer {
     }
 }  
 
-    /* For screens up to 425px wide and down*/
+    /* For screens up to 550px wide and down */
+
+@media screen and (max-width: 550px) {
+    footer {
+        height: 150px;
+    }
+
+    .form-footer {
+    float: right;
+    }
+
+    #social-media {
+        float: right;
+    }
+}    
+
+    /* For screens up to 425px wide and down */
 
  @media screen and (max-width: 425px) {
     #main-header {
         font-size: 1.2em;
     }
+    
     .nav-bar li {
         font-size: .8em;
     }
