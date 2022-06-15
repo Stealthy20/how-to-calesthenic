@@ -374,10 +374,14 @@ footer {
 }
 
 .error {
+    margin: 100px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
     position: absolute;
+    left: 10%;
+    padding: 20px;
+    max-width: 600px;
 }
 
 .error-heading {
