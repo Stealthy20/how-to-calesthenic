@@ -12,9 +12,8 @@ body {
     font-size: 1.2em;
 }
 
-
 /* code from kirianworkspace.com */
-body{
+body {
     text-align:center;
     display:flex;
     flex-direction:column;
@@ -22,7 +21,7 @@ body{
 }
    .wrapper{
     flex:1;
-   }
+}
 
 /* headings and logo */
 
@@ -300,25 +299,25 @@ footer {
     margin: 100px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 600px;
+    text-align: left;
     position: absolute;
     left: 10%;
     padding: 20px;
-    text-align: left;
+    max-width: 600px;
 }
 
 .signup-form h2 {
-    color: white;
     margin-bottom: 20px;
+    color: white;
 }
 
 .text-input {
     background: white;
     color: #3a3a3a;
-    width: 100%;
     height: 30px;
     margin: 5px 0 20px;
- }
+    width: 100%;
+}
 
 .text-input:hover {
     font-size: .9em;
@@ -346,25 +345,25 @@ footer {
     font-size:1em;
     background-color: #3a3a3a;
     color: white;
-    }
+}
 
-    .button-reset:hover {
-        background-color: red;
-    }
+.button-reset:hover {
+    background-color: red;
+}
 
-    /* signed up style */
+/* signed up style */
 
-    .signed-up {
-        padding-top: 150px;
-        text-decoration: none;
-    }
+.signed-up {
+    padding-top: 150px;
+    text-decoration: none;
+}
 
-    .signed-up-img img {
-        width: 50%;
-        height: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+.signed-up-img img {
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
  /* Media queries */
 
