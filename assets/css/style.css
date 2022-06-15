@@ -365,6 +365,30 @@ footer {
     padding-bottom: 50px;
 }
 
+/* 404 page */
+
+.error-wrapper {
+    background: url('../images/form-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.error {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+    position: absolute;
+}
+
+.error-heading {
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.error h3 {
+    font-size: 1.2em;
+}
+
  /* Media queries */
 
  /* For screens up to 1300px wide and down*/
