@@ -51,7 +51,48 @@ This site is contains following content
 ![image of the content in the sign up for newsletter](docs/newsletter.JPG)
 ![image of the content in the signed-up page](docs/signed-up.JPG)
 
-- Custom 404 page to make sure that the user can navigate the page even if something goes wrong.
+- Custom 404 page 
+  - A landing page when something goes wrong to make sure that the user still can navigate the page and get to the intendent content.
   - The 404 page have the same header and footer as all the other pages for easy navigation and familiarity 
 
 ![image of the content in the 404 page](docs/404.JPG)
+
+## Upcomming features 
+  - I want to add a google map for the user to see the closest calisthenic parks or outdoor gyms in their area.
+
+# Testing
+I have tested the page continuously as i built it. This vill be noticable as we go through some bugs since the colors will be diffrent from the finished product. I will show screenshots and explenations of some of the bugs i encountered during this progress. 
+
+## Bugs
+
+- Bug 1
+  - I didn't get the logo in the header and the navigation bar to get on the same row in the header. 
+
+![image of the first bug where the navigation bar and logo in the header appeared on two rows](docs/bug1.JPG) 
+
+- Fix for bug 1
+  - Added flot left property to the logo in the header. Which made the navigation bar to pop up on the same row with its float right element. 
+
+![image of the fix for the first bug](docs/bug1-fix.JPG) 
+
+- Bug 2
+  - Had a problem where all the left elements didn't appear on the left and some stacked on the right side. As you can see on the colors. The blue should all be on the left and the red should all be on the right. 
+
+![image of the second bug where the elements didn't align](docs/bug2.JPG) 
+
+- Fix for bug 2
+  - The height difference where to problem which made the blue go over on the right side. 
+  - Fixed it by setting the same height to the elements.
+
+![image of the fix for the second bug](docs/bug2-fix.JPG) 
+
+- Bug 3
+  - The navigation bar wasn't responsive on smaller screens. Didnt look good and only made a new row.
+
+![image of the third bug where navigation bar wasn't responsive on samller screens](docs/bug3.JPG) 
+
+- Fix for bug 3
+  - Added float left poperty to the navigation bar for screen sizes of 850px and down.
+  - Reduced the font size to make it fit under the logo in the header.
+
+![image of the fix for the third bug](docs/bug3-fix.JPG) 
