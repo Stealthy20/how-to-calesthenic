@@ -245,6 +245,10 @@ footer {
     padding-bottom: 15px;
 }
 
+.get-started-pros > h2 {
+    text-align: left;
+}
+
 .get-started-pros li {
     padding-bottom: 15px;
     list-style-position: inside;
