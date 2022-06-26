@@ -369,6 +369,11 @@ footer {
     padding-bottom: 50px;
 }
 
+.signed-up-link {
+    color: #3a3a3a;
+    padding-top: 50px;
+}
+
 /* 404 page */
 
 .error-wrapper {
